@@ -16,7 +16,6 @@ export default {
         'third': '#149ECA',
         'four': '#1A1C22',
       }, 
-
       keyframes: {
         marquee: {
           '0%': { transform: 'translateX(100%)' },
@@ -28,6 +27,11 @@ export default {
           '50%':  { transform: 'rotate(180deg)' },
         },
 
+        fadeIn:  {
+          '0%': { opacity: '0', scale: '0'},
+          '100%': { opacity: '100', scale: '1'},
+        },
+
         textEnd: {
           '0%': {transform: 'translateY(100%)'},
           '100%': {transform: 'translateY(-100%)'}
@@ -36,7 +40,8 @@ export default {
       animation: {
         marquee: 'marquee 20s linear infinite',
         spinSlow: 'spinSlow 8s linear infinite',
-        textEnd: 'textEnd 5s linear infinite'
+        textEnd: 'textEnd 5s linear infinite',
+        fadeIn:  'fadeIn 3s'
       },
 
     },
