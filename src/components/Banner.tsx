@@ -11,8 +11,8 @@ export function Banner () {
             <div className="flex flex-col gap-4 z-10">
                 <h1 className="text-6xl font-bold text-third">Front-End Developer</h1>
                 <p className="text-xl">Paulo Samuel António André</p>
-
                 <p className="text-xl">HTML * CSS * TYPESCRIPT</p>
+                <button className='w-40 p-2 rounded-full bg-four font-bold hover:opacity-50 '>Download CV</button>
             </div>
 
             <div className='w-[30rem] h-[30rem] rounded-[50%]'>

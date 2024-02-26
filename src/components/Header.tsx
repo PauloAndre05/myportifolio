@@ -30,10 +30,10 @@ export function Header () {
                     </div>
             
                     <div className="flex gap-3 ">
-                            <a href="#" className="px-5 flex justify-center items-center pb-1 bg-third rounded-full">
+                            <a href="#" className="px-5 flex justify-center items-center pb-1 bg-third rounded-full hover:opacity-80">
                                 LinkedIn
                             </a>
-                            <a href="https://github.com/pauloandre05" target='_blank' className="px-5 flex justify-center items-center pb-1 bg-primary rounded-full">
+                            <a href="https://github.com/pauloandre05" target='_blank' className="px-5 flex justify-center items-center pb-1 bg-primary rounded-full hover:bg-white hover:text-black">
                                 GitHub
                             </a>
                     </div>
