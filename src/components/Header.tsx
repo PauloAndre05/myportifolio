@@ -4,7 +4,7 @@ import { Banner } from './Banner';
 export function Header () {
     return(
         <main>
-            <section className="flex justify-between items-center px-[5rem] py-[1rem] bg-secound fixed right-0 left-0 z-50 max-sm:p-10 max-sm:py-3">
+            <section className="flex justify-between items-center px-[5rem] py-[1rem] bg-secound fixed right-0 left-0 z-50 max-sm:px-6 max-sm:py-4">
                 <div className="flex items-center gap-2">
                     <div className='w-12 rounded-[100%] overflow-hidden max-sm:w-10'>
                         <img
