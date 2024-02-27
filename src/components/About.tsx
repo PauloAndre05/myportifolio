@@ -12,10 +12,16 @@ import imageTs from '../assets/images/ts.png';
 
 export function About () {
     return(
-        <main className="bg-primary flex flex-col p-20">
+        <main className="bg-primary flex flex-col p-20 max-sm:p-6">
             <h1 className="text-3xl text-right border-b-4 p-4 text-third font-bold">Profile</h1>
-            <section className="flex justify-between mt-20">
-                <article className="text-[1.3rem] w-[50%] text-justify">
+            <section className="flex justify-between mt-20 max-sm:flex-col">
+                <article className='w-[30%] max-sm:w-full opacity-80'>
+                    <div className=''>
+                        <img src={imgAbout} alt="About Image" />   
+                    </div>
+                </article>
+                
+                <article className="text-[1.3rem] w-[50%] text-justify max-sm:w-full max-sm:mt-10">
                     <h2 className="text-third font-bold text-[1.5rem] mb-4">Paulo Samuel António André</h2>
                     <div className='flex justify-between'>
                         <div className='flex flex-col items-center'>
@@ -94,11 +100,6 @@ export function About () {
                     </div>
                 </article>
 
-                <article className='w-[30%]'>
-                    <div className=''>
-                        <img src={imgAbout} alt="About Image" />   
-                    </div>
-                </article>
             </section>
         </main>
     )

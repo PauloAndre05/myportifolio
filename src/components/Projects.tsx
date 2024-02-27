@@ -11,7 +11,7 @@ import { CardProject } from './CardProject';
 
 export function Projects () {
     return(
-        <main className="bg-secound p-20 flex flex-col gap-4">
+        <main className="bg-secound p-20 flex flex-col gap-4 max-sm:p-6 max-sm:border">
             <section className="">
                 <h1 className="text-3xl font-bold">Projects</h1>
             </section>

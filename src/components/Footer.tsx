@@ -1,6 +1,6 @@
 export function Foorter () {
     return(
-    <footer className="h-svh bg-four p-20 flex items-center">
+    <footer className="h-svh bg-four p-20 flex items-center max-sm:p-6 max-sm:h-full">
             <section className="flex flex-col flex-wrap gap-10 max-w-[100%]">
                 <div className="flex justify-between gap-10 flex-wrap">
                     <div className="flex flex-col gap-5 items-center ">

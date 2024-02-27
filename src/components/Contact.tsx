@@ -2,7 +2,7 @@ import imageContact from '../assets/images/contact.avif'
 
 export function Contact () {
     return(
-        <main className="h-svh bg-four relative p-20">
+        <main className="h-svh bg-four relative p-20 max-sm:p-6 max-sm:h-full">
             <img 
                 className="absolute top-0 right-0 bottom-0 left-0 object-cover opacity-5 w-full h-full bg-no-repeat"
                 src={imageContact}
