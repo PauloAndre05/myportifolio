@@ -12,7 +12,7 @@ export function Banner () {
                 <h1 className="text-6xl font-bold text-third animate-fadeIn max-sm:text-5xl">Front-End Developer</h1>
                 <p className="text-xl animate-fadeIn">Paulo Samuel António André</p>
                 <p className="text-xl animate-fadeIn">HTML * CSS * TYPESCRIPT</p>
-                <button className='w-40 p-2 rounded-full bg-four font-bold hover:opacity-50 max-sm:m-auto animate-fadeIn'>Download CV</button>
+                <button className='w-40 p-2 rounded-full bg-four hover:opacity-50 max-sm:m-auto animate-fadeIn'>Download CV</button>
             </div>
 
             <div className='w-[30rem] h-[30rem] rounded-[50%]  max-sm:hidden'>
