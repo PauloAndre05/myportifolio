@@ -13,7 +13,7 @@ export function Projects () {
     return(
         <main className="bg-secound p-20 flex flex-col gap-4 max-sm:p-3 max-sm:py-16">
             <section className="">
-                <h1 className="text-3xl font-bold">Projects</h1>
+                <h1 className="text-3xl font-bold text-center">Projects</h1>
             </section>
 
             <section className="mt-10 flex flex-wrap gap-10 justify-center">
