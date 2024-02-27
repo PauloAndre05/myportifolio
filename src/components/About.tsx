@@ -29,24 +29,24 @@ export function About () {
                     <h2 className="text-third font-bold uppercase max-sm:text-center">Paulo Samuel António André</h2>
                     <div className='flex flex-col'>
                         <div className='flex gap-2 items-center'>
-                            <span className='font-bold uppercase opacity-800'>Nationality :</span>
-                            <span className='text-secound font-bold text-[.9rem] uppercase'>Angolan</span>
+                            <span className='font-bold uppercase opacity-800 max-sm:text-[.8rem]'>Nationality :</span>
+                            <span className='text-secound font-bold text-[.9rem] uppercase max-sm:text-[.75rem]'>Angolan</span>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <span className='font-bold uppercase opacity-800'>Bithday :</span>
-                            <span className='text-secound font-bold text-[.9rem] uppercase'>01/07/2002</span>
+                            <span className='font-bold uppercase opacity-800 max-sm:text-[.8rem]'>Bithday :</span>
+                            <span className='text-secound font-bold text-[.9rem] uppercase max-sm:text-[.75rem]'>01/07/2002</span>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <span className='font-bold uppercase opacity-800'>Status :</span>
-                            <span className='text-secound font-bold text-[.9rem] uppercase'>Single</span>
+                            <span className='font-bold uppercase opacity-800 max-sm:text-[.8rem]'>Status :</span>
+                            <span className='text-secound font-bold text-[.9rem] uppercase max-sm:text-[.75rem]'>Single</span>
                         </div>  
                         <div className='flex gap-2 items-center'>
-                            <span className='font-bold uppercase opacity-800'>Formation :</span>
-                            <span className='text-secound font-bold text-[.9rem] uppercase'>Instituto Politécnico Industrial de Luanda(2019-2023)</span>
+                            <span className='font-bold uppercase opacity-800 max-sm:text-[.8rem]'>Formation :</span>
+                            <span className='text-secound font-bold text-[.9rem] uppercase max-sm:text-[.75rem]'>Instituto Politécnico Industrial de Luanda(2019-2023)</span>
                         </div>
                     </div>
 
-                    <h2 className="text-third font-bold uppercase max-sm:text-center">About developers system</h2>
+                    <h2 className="text-third font-bold uppercase max-sm:text-center">About system development</h2>
                     <p className='opacity-50'>Highly skilled and motivated software developer with solid experience in user interface development, application development, and continuous improvement. Proficient in technologies such as HTML, CSS, JavaScript, TypeScript, ReactJS, Next.JS, Node.JS, Styled-Components, Tailwind CSS, Git, and GitHub. Committed to identifying areas for enhancing user experience and developing new features to improve application functionality.</p>
                     
 
