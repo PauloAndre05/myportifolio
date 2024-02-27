@@ -8,7 +8,7 @@ interface CardProps {
 export function CardProject ({image, title, description, link}: CardProps) {
     return(
         <article className='bg-four p-8 rounded-[1rem] w-80 hover:scale-110 cursor-zoom-in'>
-                    <div className=' w-full overflow-hidden rounded-sm'>
+                    <div className=' w-full overflow-hidden rounded-sm shrink-0'>
                         <img 
                             className='w-full object-cover rounded-[1rem]'
                             src={image} 
