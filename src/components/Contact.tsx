@@ -2,16 +2,16 @@ import imageContact from '../assets/images/contact.avif'
 
 export function Contact () {
     return(
-        <main className="h-svh bg-four relative p-20 max-sm:p-6 max-sm:h-full">
+        <main className="h-svh bg-four relative p-20 max-sm:p-3 max-sm:h-full max-sm:py-16">
             <img 
                 className="absolute top-0 right-0 bottom-0 left-0 object-cover opacity-5 w-full h-full bg-no-repeat"
                 src={imageContact}
                 alt="imagem de fundo" 
             />
 
-            <div className='z-10 opacity-80 h-full'>
+            <div className='z-10 opacity-80 h-full flex flex-col gap-10'>
                 <h1 className='text-3xl text-center font-bold '>Contact-me</h1>
-                <form className='flex flex-col gap-5 justify-center items-center  h-full text-four font-bold'>
+                <form className='flex flex-col gap-5 justify-center items-center h-full text-four font-bold'>
                     <input 
                         className='p-2 rounded-[1rem] w-80 focus:border-none'
                         type="text"  

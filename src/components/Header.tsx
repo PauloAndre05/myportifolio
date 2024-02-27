@@ -4,17 +4,17 @@ import { Banner } from './Banner';
 export function Header () {
     return(
         <main>
-            <section className="flex justify-between items-center px-[5rem] py-[1rem] bg-secound fixed right-0 left-0 z-50 max-sm:px-6 max-sm:py-4">
-                <div className="flex items-center gap-2">
-                    <div className='w-12 rounded-[100%] overflow-hidden max-sm:w-10'>
+            <section className="flex justify-between items-center px-[5rem] py-[1rem] bg-secound fixed right-0 left-0 z-50 max-sm:px-3 max-sm:py-4">
+                <a href='#' className="flex items-center gap-2">
+                    <div className='w-12 rounded-[100%] overflow-hidden max-sm:w-11'>
                         <img
                             className='animate-spinSlow w-full rounded-[100%'
                             src={imgPerfil}
                             alt="Profile Image"
                         />
                     </div>
-                    <h1 className="font-bold text-[1.5rem]  border-b-4 max-sm:text-[1rem]">Paulo</h1>
-                </div>
+                    <h1 className="font-bold text-[1.5rem]  border-b-4 max-sm:text-[1.3rem]">Paulo</h1>
+                </a>
                 <nav className='max-sm:hidden'>
                     <ul className="flex items-center gap-7 text-[1.2rem]">
                         <li><a href="#">Home</a></li>

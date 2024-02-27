@@ -12,10 +12,10 @@ import imageTs from '../assets/images/ts.png';
 
 export function About () {
     return(
-        <main className="bg-primary flex flex-col p-20 max-sm:p-6">
+        <main className="bg-primary flex flex-col p-20 max-sm:p-3 max-sm:py-16">
             <h1 className="text-3xl text-right border-b-4 p-4 text-third font-bold">Profile</h1>
-            <section className="flex justify-between mt-20 max-sm:flex-col">
-                <article className='w-[30%] max-sm:w-full opacity-80'>
+            <section className="flex justify-between mt-20 max-sm:flex-col max-sm:mt-10">
+                <article className='w-[30%] max-sm:w-full opacity-80 rounded-[.4rem] overflow-hidden'>
                     <div className=''>
                         <img src={imgAbout} alt="About Image" />   
                     </div>
