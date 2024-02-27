@@ -2,7 +2,7 @@ import imgBanner from '../assets/images/cropped-foto.jpg'
 
 export function Banner () {
     return(
-        <main className="h-[100vh] flex p-20 pt-44 justify-between items-center relative max-sm:pl-10">
+        <main className="h-[100vh] flex p-20 pt-44 justify-between items-center relative max-sm:m-auto">
             <img 
                 src={imgBanner} 
                 className="absolute inset-0 w-full h-full bg-no-repeat object-cover opacity-5 max-sm:opacity-10" 
