@@ -2,7 +2,7 @@ export function Foorter () {
     return(
     <footer className="h-svh bg-four p-20 flex items-center max-sm:p-3 max-sm:h-full max-sm:py-16">
             <section className="flex flex-col flex-wrap gap-10 max-w-[100%]">
-                <div className="flex justify-between gap-10 flex-wrap">
+                <div className="flex justify-between gap-10 flex-wrap max-sm:flex-col">
                     <div className="flex flex-col gap-5 items-center ">
                         <h1 className="text-2xl">Páginas</h1>
                         <div className="flex flex-col text-third gap-2">
