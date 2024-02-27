@@ -8,7 +8,7 @@ export function Banner () {
                 className="absolute inset-0 w-full h-full bg-no-repeat object-cover opacity-5 max-sm:opacity-10" 
                 alt="Imagem de Fundo"
             />
-            <div className="flex flex-col gap-4 z-10 max-sm:m-auto max-sm:border max-sm:text-center">
+            <div className="flex flex-col gap-4 z-10 max-sm:m-auto max-sm:text-center">
                 <h1 className="text-6xl font-bold text-third animate-fadeIn max-sm:text-5xl">Front-End Developer</h1>
                 <p className="text-xl animate-fadeIn">Paulo Samuel António André</p>
                 <p className="text-xl animate-fadeIn">HTML * CSS * TYPESCRIPT</p>
