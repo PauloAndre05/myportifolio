@@ -54,8 +54,8 @@ export function Header () {
                 <div
                     onClick={toggleMenu} 
                     className='flex flex-col items-center fixed right-3 bg-third py-1 px-2 shadow-md rounded-[1rem] md:hidden hover:scale-105 cursor-pointer '>
-                    {isOpen ? <IoCloseOutline className='text-2xl font-bold' /> : <IoCodeSlashOutline className='text-2xl font-bold'/>}       
-                    <h6 className='uppercase font-bold text-[.7rem]'>Menu</h6>
+                    {isOpen ? <IoCloseOutline className=' font-bold' /> : <IoCodeSlashOutline className='text-[1.1rem] font-bold'/>}       
+                    <h6 className='uppercase font-bold text-[.65rem]'>Menu</h6>
                 </div>
 
                 {
