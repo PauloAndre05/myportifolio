@@ -21,7 +21,7 @@ export function Header () {
                             alt="Profile Image"
                         />
                     </div>
-                    <h1 className="font-bold text-[1.5rem]  border-b-4 border-third max-sm:text-[1.5rem] max-sm:text-third tracking-wider max-sm:border-none">Paulo</h1>
+                    <h1 className="font-bold text-[1.5rem]  border-b-4 border-third max-sm:text-[1.5rem]  tracking-wider max-sm:border-none">Paulo</h1>
                 </a>
                 <nav className='max-sm:hidden'>
                     <ul className="flex items-center gap-7 text-[1rem] uppercase">
@@ -53,7 +53,7 @@ export function Header () {
 
                 <div
                     onClick={toggleMenu} 
-                    className='flex flex-col items-center fixed right-3 bg-[#2F323A] py-1 px-2 shadow-md rounded-[1rem] md:hidden hover:scale-105 cursor-pointer'>
+                    className='flex flex-col items-center fixed right-3 bg-third py-1 px-2 shadow-md rounded-[1rem] md:hidden hover:scale-105 cursor-pointer '>
                     {isOpen ? <IoCloseOutline className='text-2xl font-bold' /> : <IoCodeSlashOutline className='text-2xl font-bold'/>}       
                     <h6 className='uppercase font-bold text-[.7rem]'>Menu</h6>
                 </div>
