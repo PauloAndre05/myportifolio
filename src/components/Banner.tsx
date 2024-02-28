@@ -2,10 +2,10 @@ import imgBanner from '../assets/images/cropped-foto.jpg'
 
 export function Banner () {
     return(
-        <main className="h-[100vh] flex p-20 pt-44 justify-between items-center relative max-sm:p-0 w-full max-sm:px-3">
+        <main className="h-[100vh] flex p-20 pt-44 justify-between items-center relative max-sm:p-0 w-full max-sm:px-3 max-sm:h-[90svh]">
             <img 
                 src={imgBanner} 
-                className="absolute inset-0 w-full h-full bg-no-repeat object-cover opacity-5 max-sm:opacity-10" 
+                className="absolute inset-0 w-full h-full bg-no-repeat object-cover opacity-5 max-sm:opacity-20" 
                 alt="Imagem de Fundo"
             />
             <div className="flex flex-col gap-4 z-10 ">
