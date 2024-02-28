@@ -22,14 +22,14 @@ export function Projects () {
                     image={imageAspo}
                     title='ASPonline'
                     description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod vel fuga vitae magnam quae tempora, provident tenetur harum eos similique maiores quos temporibus eum voluptatem veniam quisquam iste aliquid.'
-                    link='#'
+                    link='https://github.com/PauloAndre05/ASPonline'
                 />
 
                 <CardProject 
                     image={imageRestaurent}
                     title='RestaurantAPP'
                     description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod vel fuga vitae magnam quae tempora, provident tenetur harum eos similique maiores quos temporibus eum voluptatem veniam quisquam iste aliquid.'
-                    link='#'
+                    link='https://github.com/PauloAndre05/Restaurant-app'
                 />
 
                 <CardProject 
@@ -43,21 +43,21 @@ export function Projects () {
                     image={imageNetflix}
                     title='Netflix'
                     description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod vel fuga vitae magnam quae tempora, provident tenetur harum eos similique maiores quos temporibus eum voluptatem veniam quisquam iste aliquid.'
-                    link='#'
+                    link='https://github.com/PauloAndre05/Clone-Netflix'
                 />
 
                 <CardProject 
                     image={imageQrCode}
                     title='QRCode Generate'
                     description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod vel fuga vitae magnam quae tempora, provident tenetur harum eos similique maiores quos temporibus eum voluptatem veniam quisquam iste aliquid.'
-                    link='#'
+                    link='https://github.com/PauloAndre05/QR_Code-Generator'
                 />
 
                 <CardProject 
                     image={imageCalculator}
-                    title='Calculator'
+                    title='Calculator IMC'
                     description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod vel fuga vitae magnam quae tempora, provident tenetur harum eos similique maiores quos temporibus eum voluptatem veniam quisquam iste aliquid.'
-                    link='#'
+                    link='https://github.com/PauloAndre05/Calculadora-IMC'
                 />
 
                 <CardProject 
