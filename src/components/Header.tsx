@@ -50,6 +50,9 @@ export function Header () {
 
                 {/* SECÇÃO MENU MOBILE*/}
 
+                {
+                    isOpen && <div className='fixed bg-black h-[100svh] left-0 bottom-0 top-0 right-0 opacity-60 z-0'></div>
+                }
 
                 <div
                     onClick={toggleMenu} 
@@ -61,7 +64,7 @@ export function Header () {
                 {
                     isOpen && 
                     <div
-                    className=' fixed right-3 left-3 top-16 p-3 rounded-[1rem] bg-[#2F323A]'>
+                    className=' fixed right-3 left-3 top-16 p-3 rounded-[1rem] bg-[#2F323A] shadow-sm shadow-third'>
                     <nav className=''>
                         <ul className=" flex flex-col gap-3 w-full text-center">
                             <a href="#" className='py-2'>Home</a>
