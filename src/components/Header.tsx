@@ -10,6 +10,10 @@ export function Header () {
         setIsOpen(!isOpen);
       };
 
+      const closeMenuToScreen = () => {
+        setIsOpen(false)
+      }
+
     return(
         <header>
             <section className="flex justify-between items-center px-[5rem] py-[1rem] bg-secound fixed right-0 left-0 z-50 max-sm:px-3 max-sm:py-4 max-sm:bg-transparent max-sm:absolute">
@@ -51,7 +55,10 @@ export function Header () {
                 {/* SECÇÃO MENU MOBILE*/}
 
                 {
-                    isOpen && <div className='fixed bg-black h-[100svh] left-0 bottom-0 top-0 right-0 opacity-60 z-0'></div>
+                    isOpen && 
+                    <div
+                        onClick={closeMenuToScreen} 
+                        className='fixed bg-black h-[100svh] left-0 bottom-0 top-0 right-0 opacity-60'></div>
                 }
 
                 <div
