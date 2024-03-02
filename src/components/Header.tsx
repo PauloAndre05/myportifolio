@@ -74,20 +74,28 @@ export function Header () {
                     className=' fixed right-3 left-3 top-16 p-3 rounded-[1rem] bg-[#2F323A] shadow-sm shadow-third'>
                     <nav className=''>
                         <ul className=" flex flex-col gap-3 w-full text-center">
-                            <a href="#" className='py-2'>Home</a>
-                            <a href="#" className='py-2'>About</a>
-                            <a href="#" className='py-2'>Work</a>
-                            <a href="#" className='py-2'>Projects</a>
+                            <a href="#" className='py-2' onClick={closeMenuToScreen}>Home</a>
+                            <a href="#" className='py-2' onClick={closeMenuToScreen}>About</a>
+                            <a href="#" className='py-2' onClick={closeMenuToScreen}>Work</a>
+                            <a href="#" className='py-2' onClick={closeMenuToScreen}>Projects</a>
                         </ul>
                     </nav>
 
                     <div className="flex justify-center items-center flex-col mt-5 gap-3">
                         <h1 className="font-bold">Software Developer</h1>
                         <div className="flex gap-3 text-[.8rem]">
-                                <a href="#" className="px-5 flex justify-center items-center bg-third py-1 rounded-full hover:opacity-80">
+                                <a 
+                                    onClick={closeMenuToScreen}
+                                    href="#" 
+                                    target='_blank'
+                                    className="px-5 flex justify-center items-center bg-third py-1 rounded-full hover:opacity-80">
                                     LinkedIn
                                 </a>
-                                <a href="https://github.com/pauloandre05" target='_blank' className="px-5 flex justify-center items-center bg-primary rounded-full py-1 hover:bg-white hover:text-black">
+
+                                <a 
+                                    onClick={closeMenuToScreen}
+                                    href="https://github.com/pauloandre05" target='_blank' 
+                                    className="px-5 flex justify-center items-center bg-primary rounded-full py-1 hover:bg-white hover:text-black">
                                     GitHub
                                 </a>
                         </div>

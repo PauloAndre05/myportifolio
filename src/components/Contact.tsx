@@ -2,7 +2,7 @@ import imageContact from '../assets/images/contact.avif'
 
 export function Contact () {
     return(
-        <main className="h-svh bg-four relative p-20 max-sm:p-3 max-sm:h-full max-sm:py-16">
+        <main className=" bg-four relative p-20 max-sm:p-3 max-sm:h-full max-sm:py-16">
             <img 
                 className="absolute top-0 right-0 bottom-0 left-0 object-cover opacity-5 w-full h-full bg-no-repeat"
                 src={imageContact}
@@ -15,7 +15,7 @@ export function Contact () {
                     <input 
                         className='p-2 rounded-[1rem] w-80 focus:border-none'
                         type="text"  
-                        placeholder='Tsype you full name'
+                        placeholder='Tsype you full name'   
                     />
                     <input 
                         className='p-2 rounded-[1rem] w-80 focus:border-none'

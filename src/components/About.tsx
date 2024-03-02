@@ -40,10 +40,7 @@ export function About () {
                             <span className='font-bold uppercase opacity-800 max-sm:text-[.8rem]'>Status :</span>
                             <span className='text-secound font-bold text-[.9rem] uppercase max-sm:text-[.75rem]'>Single</span>
                         </div>  
-                        <div className='flex gap-2'>
-                            <span className='font-bold uppercase opacity-800 max-sm:text-[.8rem]'>Formation :</span>
-                            <span className='text-secound font-bold text-[.9rem] uppercase max-sm:text-[.75rem]'>Instituto Politécnico Industrial de Luanda(2019-2023)</span>
-                        </div>
+                        
                     </div>
 
                     <h2 className="text-third font-bold uppercase max-sm:text-center">About system developer</h2>
