@@ -4,9 +4,8 @@ import { IoCodeSlashOutline } from "react-icons/io5";
 
 export function Foorter () {
     return(
-    <footer className=" bg-four p-20 flex flex-col max-sm:px-3 max-sm:h-full max-sm:py-16">
-            <section className="flex w-full">
-                <div className="flex gap-28 flex-wrap">
+    <footer className=" bg-four p-20 flex flex-col max-sm:px-3 max-sm:py-16">
+                <div className="flex gap-20 justify-center flex-wrap max-sm:flex-col max-sm:gap-10">
                     <div className="flex flex-col gap-2">
                         <div className="flex gap-2 items-center">
                             <img
@@ -19,24 +18,29 @@ export function Foorter () {
                         <p className="text-[13px] text-white opacity-90">&copy; 2024</p>
                     </div>
 
-                    <div className="flex flex-col gap-2 ">
-                        <h1 className="font-bold text-lg text-[17px opacity-90">Pages</h1>
-                        <div className="flex flex-col text-white gap-2 opacity-90 text-[13px] max-sm:gap-1">
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">Work</a>
-                            <a href="#">Projects</a>
+                    <div className="flex gap-28">
+                        <div className="flex flex-col gap-2 ">
+                            <h1 className="font-bold text-lg text-[17px opacity-90">Pages</h1>
+                            <div className="flex flex-col text-white gap-2 opacity-90 text-[13px] max-sm:gap-1">
+                                <a href="#">Home</a>
+                                <a href="#">About</a>
+                                <a href="#">Work</a>
+                                <a href="#">Projects</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 className="font-bold text-lg text-[17px] opacity-90">Contact</h1>
+                            <div className="flex flex-col text-whitw gap-2 opacity-90 text-[.9rem] max-sm:text-left max-sm:gap-1">
+                                <a href="#">pauloandrepaulinho05@gmail.com</a>
+                                <a href="#">https://linkedIn/pauloandre</a>
+                                <a href="#">https://github.com/pauloandre05</a>
+                                <a href="#"></a>
+                            </div>
                         </div>
                     </div>
                     
                     <div className="flex flex-col gap-5 ">
-                        <h1 className="font-bold text-lg text-[17px] opacity-90">Contact</h1>
-                        <div className="flex flex-col text-whitw gap-2 opacity-90 text-[.9rem] max-sm:text-left max-sm:gap-1">
-                            <a href="#">pauloandrepaulinho05@gmail.com</a>
-                            <a href="#">https://linkedIn/pauloandre</a>
-                            <a href="#">https://github.com/pauloandre05</a>
-                            <a href="#"></a>
-                        </div>
+                       
                     </div>
 
                     <div className="flex flex-col gap-5 ">
@@ -49,7 +53,7 @@ export function Foorter () {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-5 items-center justify-between">
+                    <div className="flex flex-col gap-5 items-center justify-between max-sm:items-start">
                         <div ><IoCodeSlashOutline className="text-[4rem] text-third shadow-xl"/> </div>
                         <div className="flex text-white gap-4 text-2xl opacity-90">
                             <a href="#"><FaTwitter /> </a>
@@ -81,7 +85,6 @@ export function Foorter () {
                 </div>  */}
 
 
-            </section>
-        </footer>
+         </footer>
     )
 }

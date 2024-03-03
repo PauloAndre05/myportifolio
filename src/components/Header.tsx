@@ -58,14 +58,20 @@ export function Header () {
                     isOpen && 
                     <div
                         onClick={closeMenuToScreen} 
-                        className='fixed bg-black h-[100svh] left-0 bottom-0 top-0 right-0 opacity-60'></div>
+                        className='fixed bg-black h-full left-0 bottom-0 top-0 right-0 opacity-60'></div>
                 }
 
                 <div
                     onClick={toggleMenu} 
                     className='flex flex-col items-center fixed right-3 bg-third py-1 px-2 shadow-md rounded-[1rem] md:hidden hover:scale-105 cursor-pointer '>
-                    {isOpen ? <IoCloseOutline className=' font-bold' /> : <IoCodeSlashOutline className='text-[1.1rem] font-bold'/>}       
-                    <h6 className='uppercase font-bold text-[.65rem]'>Menu</h6>
+                    {isOpen ? 
+                        <IoCloseOutline className=' font-bold text-[1.9rem]' /> :
+                        <div className='flex flex-col items-center justify-center'>
+                            <IoCodeSlashOutline className='text-[1.1rem] font-bold'/>
+                            <h6 className='uppercase font-bold text-[10px]'>Menu</h6>
+                        </div>
+                    }       
+                    
                 </div>
 
                 {
@@ -73,7 +79,7 @@ export function Header () {
                     <div
                     className=' fixed right-3 left-3 top-16 p-3 rounded-[1rem] bg-[#2F323A] shadow-sm shadow-third'>
                     <nav className=''>
-                        <ul className=" flex flex-col gap-3 w-full text-center">
+                        <ul className=" flex flex-col gap-3 w-full text-center text-[14px]">
                             <a href="#" className='py-2' onClick={closeMenuToScreen}>Home</a>
                             <a href="#" className='py-2' onClick={closeMenuToScreen}>About</a>
                             <a href="#" className='py-2' onClick={closeMenuToScreen}>Work</a>
@@ -81,7 +87,7 @@ export function Header () {
                         </ul>
                     </nav>
 
-                    <div className="flex justify-center items-center flex-col mt-5 gap-3">
+                    <div className="flex justify-center items-center flex-col mt-7 gap-3">
                         <h1 className="font-bold">Software Developer</h1>
                         <div className="flex gap-3 text-[.8rem]">
                                 <a 
