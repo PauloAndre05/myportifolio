@@ -6,7 +6,7 @@ import { Projects } from "../components/Projects";
 
 export function Home () {
     return(
-       <main>
+       <main className="w-full">
         <Header />
         <About />
         <Projects />
