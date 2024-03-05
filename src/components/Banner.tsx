@@ -17,7 +17,7 @@ export function Banner () {
 
             <div className='w-[30rem] h-[30rem] rounded-[50%]  max-sm:hidden'>
                 <img 
-                    className='w-full h-full rounded-[50%] opacity-70'
+                    className='animate-fadeIn w-full h-full rounded-[50%] opacity-70'
                     src={imgBanner} 
                     alt="" 
                 />

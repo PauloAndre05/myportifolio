@@ -4,7 +4,7 @@ export function Contact () {
     return(
         <main className=" bg-four relative p-20 max-sm:p-3 max-sm:h-full max-sm:py-16">
             <img 
-                className="absolute top-0 right-0 bottom-0 left-0 object-cover opacity-5 w-full h-full bg-no-repeat"
+                className="absolute top-0 right-0 bottom-0 left-0 object-cover opacity-40 w-full h-full bg-no-repeat"
                 src={imageContact}
                 alt="imagem de fundo" 
             />

@@ -41,7 +41,7 @@ export default {
         marquee: 'marquee 20s linear infinite',
         spinSlow: 'spinSlow 8s linear infinite',
         textEnd: 'textEnd 5s linear infinite',
-        fadeIn:  'fadeIn 3s'
+        fadeIn:  'fadeIn 5s'
       },
 
     },

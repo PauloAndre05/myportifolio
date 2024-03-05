@@ -5,7 +5,7 @@ import { IoCodeSlashOutline } from "react-icons/io5";
 export function Foorter () {
     return(
     <footer className=" bg-four p-20 flex flex-col max-sm:px-3 max-sm:py-16">
-                <div className="flex gap-20 justify-center flex-wrap max-sm:flex-col max-sm:gap-10">
+                <div className="flex gap-20 justify-between flex-wrap max-sm:flex-col max-sm:gap-10">
                     <div className="flex flex-col gap-2">
                         <div className="flex gap-2 items-center">
                             <img
@@ -29,9 +29,9 @@ export function Foorter () {
                             </div>
                         </div>
 
-                        <div className="">
+                        <div className="flex flex-col gap-2 ">
                             <h1 className="font-bold text-lg text-[17px] opacity-90">Contact</h1>
-                            <div className="flex flex-col text-white gap-2 opacity-90 text-[.9rem] max-sm:text-left max-sm:gap-1">
+                            <div className="flex flex-col text-white gap-2 opacity-90 text-[.9rem] max-sm:text-left max-sm:gap-1 ">
 
                             <a href="#" >+244 944 617 903</a>
                              <a href="#" >+244 951 604 642</a>
@@ -41,7 +41,7 @@ export function Foorter () {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-5 ">
+                    <div className="flex flex-col gap-2 ">
                         <h1 className="font-bold text-lg text-[17px] opacity-90">Qualities</h1>
                         <div className="flex flex-col text-whitw gap-2 opacity-90 text-[.9rem] max-sm:text-left max-sm:gap-1">
                             <a href="#">Time managment</a>
