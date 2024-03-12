@@ -21,7 +21,7 @@ export function Projects () {
                 <CardProject 
                     image={imageAspo}
                     title='ASPonline'
-                    description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod vel fuga vitae magnam quae tempora, provident tenetur harum eos similique maiores quos temporibus eum voluptatem veniam quisquam iste aliquid.'
+                    description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quod vel fuga vitae magnam quae tempora, provident tenetur harum .'
                     link='https://github.com/PauloAndre05/ASPonline'
                 />
 

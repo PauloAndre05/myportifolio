@@ -9,6 +9,12 @@ import imageGitHub from '../assets/images/gitHub.png'
 import imageFigma from '../assets/images/figma.png'
 import imageJs from '../assets/images/js.png';
 import imageTs from '../assets/images/ts.png';
+import { 
+    FaFacebook, 
+    FaFigma, 
+    FaInstagram, 
+    FaLinkedin, 
+    FaGithub } from 'react-icons/fa';
 
 export function About () {
     return(
@@ -16,7 +22,32 @@ export function About () {
 {/*             <h1 className="text-3xl text-right border-b-4 p-4 text-third font-bold">Profile</h1>
  */}            <section className="flex justify-between mt-20 max-sm:flex-col max-sm:mt-10">
                 <article className='flex justify-center'>
-                    <div className='w-96 rounded overflow-hidden max-sm:w-60 max-sm:h-60 max-sm:rounded-full'>
+                    <div className='group w-96 rounded overflow-hidden max-sm:w-60 max-sm:h-60 max-sm:rounded-full relative hover:cursor-pointer'>
+                        <div className='hidden justify-center items-center absolute w-full h-full bg-[#00000062] transition-all duration-1000 group-hover:flex'>
+                            <div className='flex flex-col w-full h-full pb-4 justify-end items-center gap-5'>
+                                <h1 className='font-semibold text-[1.1rem] w-[80%] text-center'>Folow me in my social media</h1>
+                                <div className='flex gap-2 flex-wrap justify-center text-2xl'>
+                                    <a 
+                                        href="https://github.com/pauloandre05" className='group border p-2 rounded-full'> 
+                                        <FaGithub className=''/>
+                                    </a>
+                                    <a href="#" className='group border p-2 rounded-full'>
+                                        <FaLinkedin />
+                                    </a>
+                                    <a href="#" className='group border p-2 rounded-full'>
+                                        <FaFacebook />
+                                    </a>
+
+                                    <a href="#" className='group border p-2 rounded-full'>
+                                        <FaInstagram />
+                                    </a>
+
+                                    <a href="#" className='group border p-2 rounded-full'>
+                                        <FaFigma />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <img 
                             className='w-full h-full object-cover'
                             src={imgAbout} 
